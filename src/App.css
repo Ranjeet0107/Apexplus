@@ -1,0 +1,43 @@
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+.container{
+  display:flex;
+}
+main{
+  width: 100%;
+  padding: 0px;
+}
+
+.sidebar{
+  background: #aaa9a9;
+  color: #fff;
+  height: 100vh;
+  width: 200px;
+  transition: all 0.5s;
+  padding-top: 10%;
+}
+
+
+
+.link{
+  display: flex;
+  color: #000000;
+  padding: 20px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: x-large;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover{
+  background: rgb(211, 214, 216);
+  color: #319bd8;
+  transition: all 0.5s;
+}
+.active{
+  background: rgb(211, 214, 216);
+  color: #319bd8;
+}

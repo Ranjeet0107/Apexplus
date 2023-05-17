@@ -1,0 +1,139 @@
+{
+  "addscenario": [
+    {
+      "id": 1,
+      "Name": "Scenario1",
+      "time": 20
+    },
+    {
+      "id": 2,
+      "Name": "Scenario1",
+      "time": 10
+    },
+    {
+      "name": "myScenario",
+      "number": "10",
+      "id": 3
+    },
+    {
+      "name": "",
+      "number": "",
+      "Name": "Ranjeet",
+      "time": "12",
+      "id": 4
+    },
+    {
+      "name": "",
+      "number": "",
+      "Name": "RRRR",
+      "time": "90",
+      "id": 5
+    },
+    {
+      "Name": "Ranjeet",
+      "time": "90",
+      "id": 6
+    },
+    {
+      "Name": "",
+      "time": "",
+      "id": 7
+    },
+    {
+      "Name": "",
+      "speed": "",
+      "positionX": "",
+      "positionY": "",
+      "direction": "twowords",
+      "id": 8
+    },
+    {
+      "Name": "",
+      "speed": "",
+      "positionX": "",
+      "positionY": "",
+      "direction": "",
+      "id": 9
+    },
+    {
+      "Name": "",
+      "speed": "",
+      "positionX": "",
+      "positionY": "",
+      "direction": "",
+      "id": 10
+    },
+    {
+      "Name": "",
+      "speed": "",
+      "positionX": "",
+      "positionY": "",
+      "direction": "",
+      "id": 11
+    },
+    {
+      "Name": "",
+      "speed": "",
+      "positionX": "",
+      "positionY": "",
+      "direction": "",
+      "id": 12
+    }
+  ],
+  "addvehicle": [
+    {
+      "id": 1,
+      "name": "Safari",
+      "positionX": 10,
+      "positionY": 0,
+      "speed": 2,
+      "direction": "towards",
+      "scenarioId": 1
+    },
+    {
+      "id": 2,
+      "name": "Alto",
+      "positionX": 8,
+      "positionY": 2,
+      "speed": 3,
+      "direction": "backwards",
+      "scenarioId": 1
+    },
+    {
+      "id": 3,
+      "name": "Eon",
+      "positionX": 8,
+      "positionY": 2,
+      "speed": 3,
+      "direction": "backwards",
+      "scenarioId": 2
+    },
+    {
+      "Name": "",
+      "speed": "55",
+      "positionX": "455",
+      "positionY": "",
+      "direction": "up",
+      "name": "RR",
+      "id": 4
+    },
+    {
+      "Name": "",
+      "speed": "22",
+      "positionX": "222",
+      "positionY": "",
+      "direction": "back",
+      "name": "www",
+      "id": 5
+    },
+    {
+      "Name": "",
+      "speed": "44",
+      "positionX": "444",
+      "positionY": "44",
+      "direction": "backward",
+      "name": "TEST",
+      "id": 6
+    }
+  ]
+}
