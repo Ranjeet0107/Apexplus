@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { MdDelete } from 'react-icons/md';
 import { MdModeEdit } from 'react-icons/md';
-
+import { Link } from 'react-router-dom';
 
 
 function Home() {
@@ -73,8 +73,9 @@ function Home() {
                   <td>{d.speed}</td>
                   <td>{d.direction}</td>
                   
+                  
+                  <td><Link to={`http://localhost:3001/addscenario/updateVehicle/${i}`}><MdModeEdit /></Link></td>
                   <td><MdDelete /></td>
-                  <td><MdModeEdit /></td>
 
                 </tr>
               ))

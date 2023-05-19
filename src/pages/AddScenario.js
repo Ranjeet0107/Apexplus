@@ -50,12 +50,15 @@ const handleSubmit=(event)=>{
             <button className='btn1'onClick={handleSubmit}>add</button>
           </Link>
 
-          <Link to="/">
+          <Link to>
             <button className='btn2'>Reset
             </button>
           </Link>
-          <button className='btn3'>Go Back
-          </button>
+          <Link to="/">
+            <button className='btn3'>Back
+            </button>
+          </Link>
+          
         </div>
       </form>
     </div>
